@@ -23,6 +23,46 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.App-header-bio {
+  background-color: #282c34;
+  height: 20px;
+  color: beige;
+}
+
+.Delete-button {
+  background-color: aqua;
+  /* margin: auto; */
+  padding-right: 1rem;
+  padding-left: 1rem; 
+  margin: 2px;
+
+}
+
+.listing-add {
+  background-color: paleturquoise;
+  margin: 1rem;
+}
+
+.input-wrapper {
+  margin: 3.5rem;
+}
+
+.todos-wrapper {
+  margin-bottom: 2.5rem;
+}
+
+.todo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.task-added {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
 
 .App-link {
   color: #61dafb;
