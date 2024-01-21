@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import "./App.css";
 
@@ -33,10 +32,7 @@ function TodoList() {
         {todos.map((todo, index) => (
           <div className="todo" key={index}>
             <li>{todo}</li>
-            <button
-              className="Delete-button"
-              onClick={() => deleteTodo(index)}
-            >
+            <button className="Delete-button" onClick={() => deleteTodo(index)}>
               Delete
             </button>
           </div>
@@ -47,22 +43,3 @@ function TodoList() {
 }
 
 export default TodoList;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
